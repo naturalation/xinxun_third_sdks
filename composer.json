@@ -1,0 +1,30 @@
+{
+    "name": "xinxun/third-sdks",
+    "type": "library",
+    "description": "阿里云SDK集合整理",
+    "homepage": "https://github.com/naturalation/AliyunSdks.git",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "xinxun",
+            "email": "793359761@qq.com",
+            "homepage": "https://www.xinxuntech.com/",
+            "role": "Developer"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "XinXun\\Aliyun\\Sts\\": "aliyun-php-sdk-sts/"
+        }
+    },
+    "minimum-stability":"dev",
+    "require": {
+        "php": ">=5.6.0",
+        "ext-openssl":"*"
+    },
+    "extra": {
+        "branch-alias": {
+          "dev-master": "1.0.x-dev"
+        }
+    }
+}
