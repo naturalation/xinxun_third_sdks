@@ -2,7 +2,7 @@
     "name": "xinxun/third-sdks",
     "type": "library",
     "description": "阿里云SDK集合整理",
-    "homepage": "https://github.com/naturalation/AliyunSdks.git",
+    "homepage": "https://github.com/naturalation/xinxun_third_sdks.git",
     "license": "MIT",
     "authors": [
         {
